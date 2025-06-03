@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Saz Valley</title>
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+
+  <!-- Swiper.js CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+  <!-- AOS CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+</head>
+
+<body class="font-sans">
+  <!-- Hero Section -->
+  <section class="h-screen bg-black text-white px-6 md:px-20 pt-32">
+    <h1 class="text-5xl font-display text-center mb-10">Welcome to The Saz Valley</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+      <div class="relative group overflow-hidden rounded-xl shadow-lg hover:scale-105 transition duration-300">
+        <img src="C:\Users\acer\Pictures\IMG-20250221-WA0005.jpg" class="w-full h-96 object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+          <h2 class="text-3xl font-display font-semibold">The Saz Bhaderwah</h2>
+        </div>
+      </div>
+      <div class="relative group overflow-hidden rounded-xl shadow-lg hover:scale-105 transition duration-300">
+        <img src="https://source.unsplash.com/800x600/?valley-hotel" class="w-full h-96 object-cover" />
+        <div class="absolute inset-0 bg-black bg-opacity-40 group-hover:bg-opacity-60 transition duration-300 flex items-center justify-center">
+          <h2 class="text-3xl font-display font-semibold">The Saz Kishtwar</h2>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="bg-gradient-to-r from-yellow-100 to-white py-16 px-6 md:px-20" id="about">
+    <div class="grid md:grid-cols-2 gap-10 items-center">
+      <div data-aos="fade-right">
+        <h2 class="text-4xl font-display font-bold mb-4 text-gray-800">About The Saz Valley</h2>
+        <p class="text-gray-700 mb-6 leading-relaxed">
+          Discover an escape into nature with luxury. The Saz Valley is your haven in the Himalayas, offering a unique blend of tranquility, royal comfort, and local culture. Whether it’s the majestic views of Bhaderwah or the peaceful serenity of Kishtwar, every corner speaks of elegance and hospitality.
+        </p>
+        <a href="#rooms" class="inline-block bg-yellow-400 text-black px-6 py-2 rounded-full shadow hover:bg-yellow-300 transition">Explore Our Rooms</a>
+      </div>
+      <div data-aos="fade-left">
+        <div class="swiper mySwiper rounded-xl shadow-lg overflow-hidden">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="https://source.unsplash.com/600x400/?luxury-room" class="w-full h-80 object-cover" /></div>
+            <div class="swiper-slide"><img src="https://source.unsplash.com/600x400/?mountain-hotel" class="w-full h-80 object-cover" /></div>
+            <div class="swiper-slide"><img src="https://source.unsplash.com/600x400/?resort" class="w-full h-80 object-cover" /></div>
+          </div>
+          <div class="swiper-pagination mt-2"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Rooms Section -->
+  <section id="rooms" class="py-16 px-6 md:px-20 bg-white">
+    <h2 class="text-4xl font-display font-bold text-center mb-12">Our Rooms & Suites</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+      <div class="p-6 bg-yellow-50 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Super Deluxe</h3>
+        <p class="text-gray-600">Luxurious and spacious room with scenic views and modern amenities.</p>
+      </div>
+      <div class="p-6 bg-yellow-50 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Suite</h3>
+        <p class="text-gray-600">Elegant suite designed for comfort and style with royal interiors.</p>
+      </div>
+      <div class="p-6 bg-yellow-50 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Lovely Suite</h3>
+        <p class="text-gray-600">Perfect for couples, this suite offers privacy, comfort, and charm.</p>
+      </div>
+      <div class="p-6 bg-yellow-50 rounded-xl shadow hover:shadow-lg transition">
+        <h3 class="text-xl font-bold mb-2">Maharaja</h3>
+        <p class="text-gray-600">Experience regal luxury with the grandeur of our premium Maharaja suite.</p>
+      </div>
+    </div>
+  </section>
+  <!-- Restaurant Section -->
+<section id="restaurant" class="bg-gradient-to-r from-red-100 to-white py-20 px-6 md:px-20">
+  <div class="text-center mb-12" data-aos="fade-up">
+    <h2 class="text-4xl font-display font-bold">🍽 The Saz Restaurant</h2>
+    <p class="text-gray-700 mt-4 max-w-2xl mx-auto text-lg">
+      Enjoy culinary excellence where tradition meets taste. Savor local and global flavors with breathtaking valley views.
+    </p>
+  </div>
+  <div class="grid md:grid-cols-2 gap-10 items-center">
+    <img src="https://source.unsplash.com/800x600/?restaurant,food" alt="Saz Restaurant" class="rounded-xl shadow-xl hover:scale-105 transition duration-300" data-aos="zoom-in">
+    <ul class="space-y-4 text-gray-700 text-lg" data-aos="fade-left">
+      <li>✅ Authentic Kashmiri Wazwan</li>
+      <li>✅ International Multi-Cuisine Buffet</li>
+      <li>✅ Candlelight Dinner Setup</li>
+      <li>✅ Valley View Dining Hall</li>
+      <li>✅ 24/7 Room Service Meals</li>
+    </ul>
+  </div>
+</section>
+
+<!-- Emporium Section -->
+<section id="emporium" class="bg-gradient-to-r from-white to-yellow-100 py-20 px-6 md:px-20">
+  <div class="text-center mb-12" data-aos="fade-up">
+    <h2 class="text-4xl font-display font-bold">🛍 The Saz Emporium</h2>
+    <p class="text-gray-700 mt-4 max-w-2xl mx-auto text-lg">
+      Discover handpicked treasures from the valleys — handcrafted art, souvenirs, traditional clothing, and more.
+    </p>
+  </div>
+  <div class="grid md:grid-cols-2 gap-10 items-center">
+    <ul class="space-y-4 text-gray-700 text-lg" data-aos="fade-right">
+      <li>🎁 Local Handicrafts & Souvenirs</li>
+      <li>👗 Kashmiri Shawls & Woolens</li>
+      <li>🎨 Handmade Paintings & Decor</li>
+      <li>🕯 Scented Oils & Fragrance Gifts</li>
+      <li>🧵 Customizable Gifting Items</li>
+    </ul>
+    <img src="https://source.unsplash.com/800x600/?handicraft,emporium,store" alt="Saz Emporium" class="rounded-xl shadow-xl hover:scale-105 transition duration-300" data-aos="zoom-in">
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="bg-gray-900 text-white pt-12 pb-8 px-6 md:px-20 mt-12">
+    <div class="grid grid-cols-1 md:grid-cols-4 gap-10 mb-10">
+      <div>
+        <h3 class="text-xl font-display mb-3">The Saz Valley</h3>
+        <p class="text-gray-400">
+          A premium hotel experience nestled in the valleys of Bhaderwah and Kishtwar. Royal comfort, fine dining, and unforgettable views.
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xl font-display mb-3">Our Locations</h3>
+        <ul class="text-gray-400 space-y-2">
+          <li>🏨 The Saz Bhaderwah</li>
+          <li>🏨 The Saz Kishtwar</li>
+        </ul>
+      </div>
+      <div>
+        <h3 class="text-xl font-display mb-3">Contact</h3>
+        <p class="text-gray-400">
+          📍 Main Road, Bhaderwah, J&K<br />
+          📞 +91 98765 43210<br />
+          📧 info@sazvalley.com
+        </p>
+      </div>
+      <div>
+        <h3 class="text-xl font-display mb-3">Stay Updated</h3>
+        <form class="flex flex-col space-y-3">
+          <input type="email" placeholder="Your email" class="p-2 rounded text-black" />
+          <button type="submit" class="bg-yellow-400 text-black py-2 rounded hover:bg-yellow-300 transition">Subscribe</button>
+        </form>
+      </div>
+    </div>
+    <div class="border-t border-gray-700 pt-6 flex flex-col md:flex-row justify-between items-center">
+      <p class="text-sm text-gray-500 mb-3 md:mb-0">&copy; 2025 The Saz Valley. All rights reserved.</p>
+      <div class="flex space-x-4 text-gray-400 text-xl">
+        <a href="#" class="hover:text-yellow-400"><i class="fab fa-facebook"></i></a>
+        <a href="#" class="hover:text-yellow-400"><i class="fab fa-instagram"></i></a>
+        <a href="#" class="hover:text-yellow-400"><i class="fab fa-twitter"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      loop: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+    });
+  </script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+</html>
